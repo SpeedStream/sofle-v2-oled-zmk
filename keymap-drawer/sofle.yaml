@@ -81,7 +81,7 @@ layers:
   - PSCRN
   - CMENU
   - {t: default, h: toggle}
-  - {t: NUM_LAYER, h: toggle}
+  - {t: Numeric, h: toggle}
   - PG UP
   - {t: ▽, type: trans}
   - UP
@@ -185,64 +185,64 @@ layers:
   - ''
   - ''
   - ''
-  NUM_LAYER:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  Numeric:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - KP SLASH
-  - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - (
   - KP 7
   - KP 8
   - KP 9
   - KP MULTIPLY
+  - BACKSPACE
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - )
   - KP 4
   - KP 5
   - KP 6
   - KP MINUS
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - KP 0
   - KP 1
   - KP 2
   - KP 3
   - KP PLUS
   - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - RET
   - {t: ▽, type: trans}
   - .
-  - {t: ▽, type: trans}
+  - ''
   - ''
