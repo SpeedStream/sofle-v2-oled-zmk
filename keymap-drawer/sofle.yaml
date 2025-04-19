@@ -80,13 +80,13 @@ layers:
   - INS
   - PSCRN
   - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: NUM_LAYER, h: toggle}
   - PG UP
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -144,9 +144,9 @@ layers:
   - RGB SAI
   - RGB EFF
   - ''
-  - ''
-  - ''
-  - ''
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   - ''
   - ''
   - ''
@@ -184,4 +184,65 @@ layers:
   - {type: held}
   - ''
   - ''
+  - ''
+  NUM_LAYER:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: KP DIVIDE, h: toggle}
+  - {t: KP MULTIPLY, h: toggle}
+  - {t: KP PLUS, h: toggle}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: '7', h: toggle}
+  - {t: '8', h: toggle}
+  - {t: '9', h: toggle}
+  - {t: KP MINUS, h: toggle}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: '4', h: toggle}
+  - {t: '5', h: toggle}
+  - {t: '6', h: toggle}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - {t: '1', h: toggle}
+  - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: RET, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
