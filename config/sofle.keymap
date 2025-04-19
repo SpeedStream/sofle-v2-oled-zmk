@@ -116,11 +116,11 @@
 
         NUM_LAYER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &none   &none   &kt KP_DIVIDE  &kt KP_MULTIPLY  &kt KP_PLUS   &none
-&trans  &trans  &trans  &trans  &trans  &trans                     &none   &kt N7  &kt N8         &kt N9           &kt KP_MINUS  &none
-&trans  &trans  &trans  &trans  &trans  &trans                     &none   &kt N4  &kt N5         &kt N6           &none         &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kt N0  &kt N1  &kt N2         &kt N3           &none         &none
-                &trans  &trans  &trans  &trans  &trans    &kt RET  &trans  &trans  &trans         &none
+&trans  &trans  &trans  &trans  &trans  &trans                     &none            &none            &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &none
+&trans  &trans  &trans  &trans  &trans  &trans                     &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &none
+&trans  &trans  &trans  &trans  &trans  &trans                     &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none         &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none
+                &trans  &trans  &trans  &trans  &trans    &kp RET  &trans           &trans           &trans           &none
             >;
         };
     };
