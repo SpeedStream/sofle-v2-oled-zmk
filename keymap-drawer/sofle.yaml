@@ -194,21 +194,21 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - KP DIVIDE
-  - KP MULTIPLY
-  - KP MINUS
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
+  - KP SLASH
+  - BACKSPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (
   - KP 7
   - KP 8
   - KP 9
-  - KP PLUS
+  - KP MULTIPLY
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,11 +216,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - )
   - KP 4
   - KP 5
   - KP 6
-  - ''
+  - KP MINUS
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,7 +234,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - ''
+  - KP PLUS
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,6 +243,6 @@ layers:
   - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
   - {t: ▽, type: trans}
   - ''
